@@ -57,55 +57,49 @@
 
 
 
-<meta name="description" content="##模式
-
+<meta name="description" content="模式
 i → 切换到插入模式
 ESC → 切换到命令行模式
 
-##打开/保存/退出/改变文件(Buffer)
-
+打开/保存/退出/改变文件(Buffer)
 :e  → 打开一个文件
 :w → 存盘（write）
 :saveas  → 另存为 
 :wq → 保存并退出（write and quit）
 :q! → 退出不保存 （quit）
 :qa! → 强行不保存退出所有的正在编辑的文件（quit all）
-:bn 和 :bp → 切换打">
+:bn 和 :bp → 切换打开的多个文件">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Vim命令记忆方法">
 <meta property="og:url" content="http://yoursite.com/2016/03/12/5.Vim命令记忆方法/index.html">
 <meta property="og:site_name" content="FENotes">
-<meta property="og:description" content="##模式
-
+<meta property="og:description" content="模式
 i → 切换到插入模式
 ESC → 切换到命令行模式
 
-##打开/保存/退出/改变文件(Buffer)
-
+打开/保存/退出/改变文件(Buffer)
 :e  → 打开一个文件
 :w → 存盘（write）
 :saveas  → 另存为 
 :wq → 保存并退出（write and quit）
 :q! → 退出不保存 （quit）
 :qa! → 强行不保存退出所有的正在编辑的文件（quit all）
-:bn 和 :bp → 切换打">
-<meta property="og:updated_time" content="2016-03-21T14:31:20.000Z">
+:bn 和 :bp → 切换打开的多个文件">
+<meta property="og:updated_time" content="2016-03-21T14:34:37.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vim命令记忆方法">
-<meta name="twitter:description" content="##模式
-
+<meta name="twitter:description" content="模式
 i → 切换到插入模式
 ESC → 切换到命令行模式
 
-##打开/保存/退出/改变文件(Buffer)
-
+打开/保存/退出/改变文件(Buffer)
 :e  → 打开一个文件
 :w → 存盘（write）
 :saveas  → 另存为 
 :wq → 保存并退出（write and quit）
 :q! → 退出不保存 （quit）
 :qa! → 强行不保存退出所有的正在编辑的文件（quit all）
-:bn 和 :bp → 切换打">
+:bn 和 :bp → 切换打开的多个文件">
 
 
 
@@ -282,13 +276,11 @@ ESC → 切换到命令行模式
       
 
       
-        <p>##模式</p>
-<ul>
+        <h3 id="模式"><a href="#模式" class="headerlink" title="模式"></a>模式</h3><ul>
 <li>i → 切换到插入模式</li>
 <li>ESC → 切换到命令行模式</li>
 </ul>
-<p>##打开/保存/退出/改变文件(Buffer)</p>
-<ul>
+<h3 id="打开-保存-退出-改变文件-Buffer"><a href="#打开-保存-退出-改变文件-Buffer" class="headerlink" title="打开/保存/退出/改变文件(Buffer)"></a>打开/保存/退出/改变文件(Buffer)</h3><ul>
 <li>:e <path to="" file=""></path> → 打开一个文件</li>
 <li>:w → 存盘（write）</li>
 <li>:saveas <path to="" file=""></path> → 另存为 <path to="" file=""></path></li>
@@ -298,8 +290,7 @@ ESC → 切换到命令行模式
 <li>:bn 和 :bp → 切换打开的多个文件（next previous）</li>
 <li>:n → 切换到下一个文件（next）</li>
 </ul>
-<p>##移动光标</p>
-<ul>
+<h3 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h3><ul>
 <li>gg → 移到第一行开头</li>
 <li>G → 移动到最后一行的开头</li>
 <li>0 → 移动到光标所在行的行头</li>
@@ -313,22 +304,19 @@ ESC → 切换到命令行模式
 <li>% → 匹配括号移动</li>
 <li>/pattern → 搜索pattern的字符串（如果搜索出多个匹配，可按n键到下一个）</li>
 </ul>
-<p>##插入/删除</p>
-<ul>
+<h3 id="插入-删除"><a href="#插入-删除" class="headerlink" title="插入/删除"></a>插入/删除</h3><ul>
 <li>a → 在光标后插入（after）</li>
 <li>o → 在当前行后插入一个新行</li>
 <li>O → 在当前行前插入一个新行</li>
 <li>cw → 替换从光标所在位置后到一个单词结尾的字符</li>
 <li>dd → 删除光标所在行（delete delete）</li>
 </ul>
-<p>##拷贝/粘贴 </p>
-<ul>
+<h3 id="拷贝-粘贴"><a href="#拷贝-粘贴" class="headerlink" title="拷贝/粘贴"></a>拷贝/粘贴</h3><ul>
 <li>yy → 拷贝当前行</li>
 <li>p → 当前位置之后粘贴（paste）</li>
 <li>P → 当前位置之前粘贴（paste）</li>
 </ul>
-<p>##Undo/Redo</p>
-<ul>
+<h3 id="Undo-Redo"><a href="#Undo-Redo" class="headerlink" title="Undo/Redo"></a>Undo/Redo</h3><ul>
 <li>u → undo</li>
 <li>Ctrl + r → redo</li>
 </ul>
@@ -353,8 +341,8 @@ ESC → 切换到命令行模式
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/03/12/2.社会性动物/" rel="prev" title="社会性动物">
-                社会性动物 <i class="fa fa-chevron-right"></i>
+              <a href="/2016/03/12/3.沉默的大多数/" rel="prev" title="沉默的大多数">
+                沉默的大多数 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -460,7 +448,7 @@ ESC → 切换到命令行模式
               
             
             
-              <p class="post-toc-empty">This post does not have a Table of Contents</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#模式"><span class="nav-number">1.</span> <span class="nav-text">模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#打开-保存-退出-改变文件-Buffer"><span class="nav-number">2.</span> <span class="nav-text">打开/保存/退出/改变文件(Buffer)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#移动光标"><span class="nav-number">3.</span> <span class="nav-text">移动光标</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#插入-删除"><span class="nav-number">4.</span> <span class="nav-text">插入/删除</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拷贝-粘贴"><span class="nav-number">5.</span> <span class="nav-text">拷贝/粘贴</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Undo-Redo"><span class="nav-number">6.</span> <span class="nav-text">Undo/Redo</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
