@@ -57,16 +57,55 @@
 
 
 
-<meta name="description" content="float的本质Eric Meyer在Cascading Style Sheets 2.0 Programmer’s Reference提到“当你float一个元素的时候，这些浮动规则好像在说“尽量把这个元素往上放，能放多高就方多高，直到碰到某个元素的边界为止。”">
+<meta name="description" content="###模式
+
+i → 切换到插入模式
+ESC → 切换到命令行模式
+
+###打开/保存/退出/改变文件(Buffer)
+
+:e  → 打开一个文件
+:w → 存盘（write）
+:saveas  → 另存为 
+:wq → 保存并退出（write and quit）
+:q! → 退出不保存 （quit）
+:qa! → 强行不保存退出所有的正在编辑的文件（quit all）
+:bn 和 :bp → 切">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CSS的float与clear">
-<meta property="og:url" content="http://yoursite.com/2016/03/19/CSS的float与clear/index.html">
+<meta property="og:title" content="Vim命令记忆方法">
+<meta property="og:url" content="http://yoursite.com/2016/03/12/5.Vim命令记忆方法/index.html">
 <meta property="og:site_name" content="FENotes">
-<meta property="og:description" content="float的本质Eric Meyer在Cascading Style Sheets 2.0 Programmer’s Reference提到“当你float一个元素的时候，这些浮动规则好像在说“尽量把这个元素往上放，能放多高就方多高，直到碰到某个元素的边界为止。”">
-<meta property="og:updated_time" content="2016-03-19T14:48:53.000Z">
+<meta property="og:description" content="###模式
+
+i → 切换到插入模式
+ESC → 切换到命令行模式
+
+###打开/保存/退出/改变文件(Buffer)
+
+:e  → 打开一个文件
+:w → 存盘（write）
+:saveas  → 另存为 
+:wq → 保存并退出（write and quit）
+:q! → 退出不保存 （quit）
+:qa! → 强行不保存退出所有的正在编辑的文件（quit all）
+:bn 和 :bp → 切">
+<meta property="og:updated_time" content="2016-03-21T14:15:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="CSS的float与clear">
-<meta name="twitter:description" content="float的本质Eric Meyer在Cascading Style Sheets 2.0 Programmer’s Reference提到“当你float一个元素的时候，这些浮动规则好像在说“尽量把这个元素往上放，能放多高就方多高，直到碰到某个元素的边界为止。”">
+<meta name="twitter:title" content="Vim命令记忆方法">
+<meta name="twitter:description" content="###模式
+
+i → 切换到插入模式
+ESC → 切换到命令行模式
+
+###打开/保存/退出/改变文件(Buffer)
+
+:e  → 打开一个文件
+:w → 存盘（write）
+:saveas  → 另存为 
+:wq → 保存并退出（write and quit）
+:q! → 退出不保存 （quit）
+:qa! → 强行不保存退出所有的正在编辑的文件（quit all）
+:bn 和 :bp → 切">
 
 
 
@@ -84,7 +123,7 @@
   };
 </script>
 
-  <title> CSS的float与clear | FENotes </title>
+  <title> Vim命令记忆方法 | FENotes </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -204,7 +243,7 @@
             
             
               
-                CSS的float与clear
+                Vim命令记忆方法
               
             
           </h1>
@@ -216,8 +255,8 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-03-19T22:48:53+08:00" content="2016-03-19">
-              2016-03-19
+            <time itemprop="dateCreated" datetime="2016-03-12T08:17:31+08:00" content="2016-03-12">
+              2016-03-12
             </time>
           </span>
 
@@ -243,7 +282,56 @@
       
 
       
-        <h2 id="float的本质"><a href="#float的本质" class="headerlink" title="float的本质"></a>float的本质</h2><p>Eric Meyer在Cascading Style Sheets 2.0 Programmer’s Reference提到“当你float一个元素的时候，这些浮动规则好像在说“尽量把这个元素往上放，能放多高就方多高，直到碰到某个元素的边界为止。”  </p>
+        <p>###模式</p>
+<ul>
+<li>i → 切换到插入模式</li>
+<li>ESC → 切换到命令行模式</li>
+</ul>
+<p>###打开/保存/退出/改变文件(Buffer)</p>
+<ul>
+<li>:e <path to="" file=""></path> → 打开一个文件</li>
+<li>:w → 存盘（write）</li>
+<li>:saveas <path to="" file=""></path> → 另存为 <path to="" file=""></path></li>
+<li>:wq → 保存并退出（write and quit）</li>
+<li>:q! → 退出不保存 （quit）</li>
+<li>:qa! → 强行不保存退出所有的正在编辑的文件（quit all）</li>
+<li>:bn 和 :bp → 切换打开的多个文件（next previous）</li>
+<li>:n → 切换到下一个文件（next）</li>
+</ul>
+<p>###移动光标</p>
+<ul>
+<li>gg → 移到第一行开头</li>
+<li>G → 移动到最后一行的开头</li>
+<li>0 → 移动到光标所在行的行头</li>
+<li>$ → 移动到光标所在行的行尾</li>
+<li>^ → 移动到本行第一个不是blank字符的位置</li>
+<li>g_ → 移动到本行最后一个不是blank字符的位置</li>
+<li>nG → 移动到第 n行的行头</li>
+<li>w → 到下一个单词的开头（word）</li>
+<li>e → 到下一个单词的结尾（end）</li>
+<li>b → 到上一个单词的开头（begin）</li>
+<li>% → 匹配括号移动</li>
+<li>/pattern → 搜索pattern的字符串（如果搜索出多个匹配，可按n键到下一个）</li>
+</ul>
+<p>###插入/删除</p>
+<ul>
+<li>a → 在光标后插入（after）</li>
+<li>o → 在当前行后插入一个新行</li>
+<li>O → 在当前行前插入一个新行</li>
+<li>cw → 替换从光标所在位置后到一个单词结尾的字符</li>
+<li>dd → 删除光标所在行（delete delete）</li>
+</ul>
+<p>###拷贝/粘贴 </p>
+<ul>
+<li>yy → 拷贝当前行</li>
+<li>p → 当前位置之后粘贴（paste）</li>
+<li>P → 当前位置之前粘贴（paste）</li>
+</ul>
+<p>###Undo/Redo</p>
+<ul>
+<li>u → undo</li>
+<li>Ctrl + r → redo</li>
+</ul>
 
       
     </div>
@@ -261,13 +349,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/12/hello-hexo/" rel="next" title="Hello Hexo">
-                <i class="fa fa-chevron-left"></i> Hello Hexo
-              </a>
-            
           </div>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/03/12/3.沉默的大多数/" rel="prev" title="沉默的大多数">
+                沉默的大多数 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -335,7 +423,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">2</span>
+              <span class="site-state-item-count">5</span>
               <span class="site-state-item-name">posts</span>
             </a>
           </div>
@@ -372,7 +460,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#float的本质"><span class="nav-number">1.</span> <span class="nav-text">float的本质</span></a></li></ol></div>
+              <p class="post-toc-empty">This post does not have a Table of Contents</p>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
